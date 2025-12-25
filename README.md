@@ -27,16 +27,14 @@ GET http://localhost:3000/posts
 GET http://localhost:3000/posts?name=Luke Waelchi
 
 # Endpoint en Producción
-GET https://prueba-tecnica-offymarket-production.up.railway.app/posts
-GET https://prueba-tecnica-offymarket-production.up.railway.app/posts?name=Luke Waelchi
+- GET https://prueba-tecnica-offymarket-production.up.railway.app/posts
+- GET https://prueba-tecnica-offymarket-production.up.railway.app/posts?name=Luke Waelchi
 
 ## Instalación y ejecución
 - En Consola:
-cd backend-posts-api
-npm install
-npm start
-
-El backend se ejecuta en: http://localhost:3000
+- cd backend-posts-api
+- npm install
+- npm start
 
 -----------------------------------------------------------------------------------
 
@@ -54,12 +52,12 @@ El backend se ejecuta en: http://localhost:3000
 
 ## Instalación y ejecución
 - En Consola:
-cd frontend-posts
-npm install
-npm run dev
+- cd frontend-posts
+- npm install
+- npm run dev
 
-El frontend en local se ejecuta en: http://localhost:5173
-El frontend en producción se ejecuta en: https://prueba-tecnica-offymarket.vercel.app/
+- El frontend en local se ejecuta en: http://localhost:5173
+- El frontend en producción se ejecuta en: https://prueba-tecnica-offymarket.vercel.app/
 
 Es necesario que el backend esté corriendo para que el frontend muestre datos.
 
