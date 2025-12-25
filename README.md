@@ -23,8 +23,8 @@ Cada una cuenta con su propio `package.json` y comandos de ejecución.
 - Soporta filtro opcional por nombre: GET /posts?name=Luke Waelchi
 
 # Endpoint en Local
-GET http://localhost:3000/posts
-GET http://localhost:3000/posts?name=Luke Waelchi
+- GET http://localhost:3000/posts
+- GET http://localhost:3000/posts?name=Luke Waelchi
 
 # Endpoint en Producción
 - GET https://prueba-tecnica-offymarket-production.up.railway.app/posts
