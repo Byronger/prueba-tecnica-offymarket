@@ -22,9 +22,13 @@ Cada una cuenta con su propio `package.json` y comandos de ejecución.
 - Devuelve la cantidad de posts por usuario
 - Soporta filtro opcional por nombre: GET /posts?name=Luke Waelchi
 
-# Endpoint
+# Endpoint en Local
 GET http://localhost:3000/posts
 GET http://localhost:3000/posts?name=Luke Waelchi
+
+# Endpoint en Producción
+GET https://prueba-tecnica-offymarket-production.up.railway.app/posts
+GET https://prueba-tecnica-offymarket-production.up.railway.app/posts?name=Luke Waelchi
 
 ## Instalación y ejecución
 - En Consola:
@@ -54,7 +58,8 @@ cd frontend-posts
 npm install
 npm run dev
 
-El frontend se ejecuta en: http://localhost:5173
+El frontend en local se ejecuta en: http://localhost:5173
+El frontend en producción se ejecuta en: https://prueba-tecnica-offymarket.vercel.app/
 
 Es necesario que el backend esté corriendo para que el frontend muestre datos.
 
