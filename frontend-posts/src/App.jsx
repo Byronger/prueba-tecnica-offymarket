@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react';
 function App() {
   const [posts, setPosts] = useState([]);
   const [search, setSearch] = useState('');
+  const API_URL = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
-    fetch('http://localhost:3000/posts')
+    fetch(`${API_URL}/posts`)
       .then(res => res.json())
       .then(data => setPosts(data))
       .catch(err => console.error(err));
